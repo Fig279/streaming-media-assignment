@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const getParty = (request, response, filePath) => {
+const getMedia = (request, response, filePath) => {
     const file = path.resolve(__dirname, `../client${filePath}`);
 
     fs.stat(file, (err, stats) => {
@@ -48,5 +48,5 @@ const getParty = (request, response, filePath) => {
 };
 
 module.exports = {
-    getParty: getParty
+    getMedia: getMedia
 };

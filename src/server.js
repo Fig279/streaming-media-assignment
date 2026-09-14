@@ -11,13 +11,13 @@ const onRequest = (request, response) => {
             htmlHandler.getIndex(request, response, "index");
             break;
         case '/party.mp4':
-            mediaHandler.getParty(request, response, "/party.mp4");
+            mediaHandler.getMedia(request, response, "/party.mp4");
             break;
         case '/bling.mp3':
-            mediaHandler.getParty(request, response, "/bling.mp3");
+            mediaHandler.getMedia(request, response, "/bling.mp3");
             break;
         case '/bird.mp4':
-            mediaHandler.getParty(request, response, "/bird.mp4");
+            mediaHandler.getMedia(request, response, "/bird.mp4");
             break;
         case '/page2':
             htmlHandler.getIndex(request, response, "page2");
