@@ -20,3 +20,4 @@ const getIndex = (request, response, pageName) => {
 module.exports = {
     getIndex: getIndex,
 }
+
